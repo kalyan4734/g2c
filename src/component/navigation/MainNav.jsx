@@ -7,6 +7,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Main from '../basecomponents/Main';
+import MainDemo from '../basecomponents/MainDemo';
 import AppliedServices from '../pages/AppliedServices';
 import ForgetPassword from '../pages/ForgetPassword';
 import MarriageRegistration from '../pages/MarriageRegistration';
@@ -32,7 +33,9 @@ const MainNav = () => {
           <Route path='Profile' element={<Profile />} />
           <Route path='Service' element={<Service />} />
           <Route path='VerifyOtp' element={<VerifyOtp />} />
+          <Route path='mainDemo' element={<MainDemo />} />
           <Route path='OtpVerification' element={<Otpverification />} />
+
           <Route
             path='MarriageRegistration'
             element={<MarriageRegistration />}
