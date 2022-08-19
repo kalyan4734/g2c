@@ -1,8 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import MainNav from "./component/navigation/MainNav";
 function App() {
   return (
     <div className="App">
-    <h1 className='text-primary'>Hello</h1>
+      <MainNav />
     </div>
   );
 }
